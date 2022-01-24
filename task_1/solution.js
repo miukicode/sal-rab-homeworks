@@ -30,8 +30,6 @@ function addInCartCountChange(value) {
     let oldValue = value;
 
 
-    let oldValue = value;
-
     let newValue;
     newValue = oldValue + 1;
     // создайте переменную newValue
@@ -56,7 +54,7 @@ function addInCartSumChange(sum, delta) {
     let newSumText;
     newSumText = `${newSum} ₽`;
     console.log(`${newSumText}₽`);
-    
+
     // создайте переменную newSum и присвойте ей сумму oldSum и difference
     // создайте переменную newSumText и присвойте ей результат склеивания переменной newSum и текста ' ₽'
     // замените склеивание, используемое в newSum Text на шаблонную строку
