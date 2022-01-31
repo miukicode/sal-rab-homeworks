@@ -10,6 +10,16 @@ function renderCartItem(item) {
     // price - цена
     // count - количество
 
+    
+    let itemCountText;
+    itemCountText = product.count + " × " + product.price + " ₽ = ";
+
+
+    let sum;
+    sum = product.count * product.price;
+    itemCountText = itemCountText + sum + " ₽ ";
+
+
     // сформируйте строку itemCountText вида:
     // количество × цена ₽ = стоимость ₽
     // например,
